@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script defer src="./assets/js/index.js"></script>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Отчёт</title>
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 p-2">
+            <div class="modal-header border-0">
+                <h1 class="modal-title fs-5" id="infoModalLabel">Title placeholder</h1>
+                <img class="modal-btn" src="./assets/img/x.svg" alt="Close" data-bs-dismiss="modal" aria-label="Close">
+            </div>
+            <div class="modal-body">
+                <table>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Телефон:</th>
+                        <td class="modal-phone">Placeholder</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Почта:</th>
+                        <td class="modal-email">Placeholder</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Дата приёма:</th>
+                        <td class="modal-hire-date">Placeholder</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Должность:</th>
+                        <td class="modal-position">Placeholder</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Подразделение:</th>
+                        <td class="modal-department">Placeholder</td>
+                      </tr>
+                    </tbody>
+                </table>
+                <div class="my-4">
+                    <h2 class="w-100 ">Дополнительная информация:</h2>
+                    <p class="modal-additional-info">Placeholder</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Search bar -->
+        <form id="search-form">
+            <input class=" w-100 search-input" type="text">
+        </form>
+        
+        <!-- Cards section -->
+        <div class="row article-row row-cols-1 row-cols-lg-2 row-cols-xl-3 mb-5"> 
+        </div>
+    </div>
+</body>
+</html>

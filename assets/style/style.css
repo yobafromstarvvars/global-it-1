@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../font/proximanova_regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../font/proximanova_bold.otf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    font-family: "Proxima Nova", 'Courier New', Courier, monospace, sans-serif;
+}
+
+.article-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #262C40;
+}
+
+.article-text {
+    color: #8189A3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.article-body {
+    border-radius: 16px;
+    box-shadow: 0 0 20px #00000013;
+    height: 314px;
+    padding: 24px;
+    cursor: pointer;
+}
+
+#search-form {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.search-input {
+    border-radius: 24px;
+    border: 1px solid #D4DEFE;
+    background-image: url("../img/Frame\ 4815.svg");
+    background-repeat: no-repeat;
+    background-position: center right 20px;
+    
+    padding-right: 60px;
+    padding-left: 20px;
+    height: 48px;
+}
+
+.article-row {
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 24px;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #262C40;
+}
+
+.modal-btn {
+    cursor: pointer;
+}
+
+.modal-content {
+    border-radius: 16px;
+}
+
+/* Modal headers */
+table th, .modal-body h2 {
+    color: #262C40;
+    font-size: 18px;
+    font-weight: 400;
+    width: 45%;
+    
+}
+
+/* Modal information */
+table td, .modal-body p {
+    color: #8189A3;
+    font-size: 16px;
+    font-weight: 400;
+}
