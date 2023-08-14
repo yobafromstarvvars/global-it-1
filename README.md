@@ -1,4 +1,5 @@
 # Тестовое задание 2
+### Запрос
 ```
 SELECT c.id, name, sub_name, sub_id, sub_level
 	(SELECT COUNT(*) FROM collaborators AS c WHERE c.subdivision_id = sub_id) AS colls_count
@@ -18,8 +19,12 @@ ON c.subdivision_id = s.sub_id
 WHERE LEN(c.name) > 11 AND c.age < 40 
 ORDER BY sub_level ASC;
 ```
+### Результирующая таблица
+![image](https://github.com/yobafromstarvvars/global-it-1/assets/82865142/9515bad2-60fb-45b8-89da-fe496bbe4460)
+### Время выполнения запроса
+![image](https://github.com/yobafromstarvvars/global-it-1/assets/82865142/4b2a129a-ead4-45dc-b999-8fb3787f4141)
+
 # Тестовое задание 1
-Для вёрстки был использован Bootstrap.
 ![image](https://github.com/yobafromstarvvars/global-it-1/assets/82865142/0caca4ca-51f7-46ce-92cf-5319706f379f)
 ![image](https://github.com/yobafromstarvvars/global-it-1/assets/82865142/fad4cebd-4e21-4218-92ec-f6257668f333)
 ![image](https://github.com/yobafromstarvvars/global-it-1/assets/82865142/3dbbc253-17a1-4387-8f23-c64cd62b7538)
