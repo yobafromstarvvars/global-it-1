@@ -1,6 +1,7 @@
 # Тестовое задание 2
 ```
 SELECT c.id, name, sub_name, sub_id, sub_level
+	(SELECT COUNT(*) FROM collaborators AS c WHERE c.subdivision_id = sub_id) AS colls_count
 FROM collaborators AS c 
 INNER JOIN (
 	SELECT 
